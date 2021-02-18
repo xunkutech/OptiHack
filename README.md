@@ -1,3 +1,14 @@
+# This is out-of-box adaptation for Dell optiplex-9020m-desktop model from [zearp/OptiHack](https://github.com/zearp/OptiHack) 
+
+## Adjustments & Enhancements
+1. Adjust audio layout-id to 27.
+2. Fix USBPort mapping.
+3. Add 4k support by iGPU(DP port near the D-Sub port, not tested yet).
+4. Add OpenCore's GUI and boot-chime.
+5. Add support for the factory shipped intel 7620 WIFI & BT combo card(itwlm).
+6. Add Android usb cable connector share driver(HoRNDIS.kext)
+7. Move MLB and ROM entries from PlatformInfo->Generic to  NVRAM->Add->4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14 for some odd issues in latest OC version(>=0.6.6).
+
 # OptiHack
 My hackintosh journey with the Dell Optiplex 7020 SFF/MT.
 
